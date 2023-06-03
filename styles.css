@@ -366,7 +366,7 @@ body {
     content: '';
     display: block;
     background: #262730;
-    width: 90%;
+    width: 10%;
     height: 100%;
     border-radius: 9px;
 }
@@ -384,7 +384,7 @@ body {
     content: '';
     display: block;
     background: #262730;
-    width: 80%;
+    width: 10%;
     height: 100%;
     border-radius: 9px;
 }
@@ -402,7 +402,25 @@ body {
     content: '';
     display: block;
     background: #262730;
-    width: 50%;
+    width: 5%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progresscnet {
+    background: #ceac30;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+    opacity: 0.9;
+}
+
+#progresscnet:after {
+    content: '';
+    display: block;
+    background: #262730;
+    width: 80%;
     height: 100%;
     border-radius: 9px;
 }
@@ -420,7 +438,25 @@ body {
     content: '';
     display: block;
     background: #262730;
-    width: 70%;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progressdb {
+    background: #ceac30;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+    opacity: 0.9;
+}
+
+#progressdb:after {
+    content: '';
+    display: block;
+    background: #262730;
+    width: 60%;
     height: 100%;
     border-radius: 9px;
 }
@@ -438,7 +474,7 @@ body {
     content: '';
     display: block;
     background: #262730;
-    width: 60%;
+    width: 40%;
     height: 100%;
     border-radius: 9px;
 }
